@@ -29,3 +29,10 @@ jobs:
           name: 'rancher_exporter'
           compress: 'true'
           dest: 'dist'
+
+    - name: Update release
+      uses: johnwbyrd/update-release@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        asset: ./rancher_exporter-linux-amd64.tar.gz
+        release: 0.24.0-alpha
