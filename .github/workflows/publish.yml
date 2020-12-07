@@ -34,5 +34,5 @@ jobs:
       uses: johnwbyrd/update-release@v1.0.0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        asset: ./rancher_exporter-linux-amd64.tar.gz
+        files: ./rancher_exporter-linux-amd64.tar.gz
         release: 0.24.0-alpha
