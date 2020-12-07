@@ -35,4 +35,4 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         files: dist/rancher_exporter-linux-amd64.tar.gz
-        release: 0.24.0-alpha
+        release: v0.24.0-alpha
