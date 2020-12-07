@@ -36,3 +36,4 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         files: dist/rancher_exporter-linux-amd64.tar.gz
         release: v0.24.0-alpha
+        message: This is a pre-release from the infinityworks/prometheus-rancher-exporter master branch.
