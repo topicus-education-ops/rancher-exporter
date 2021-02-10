@@ -1,5 +1,6 @@
 {
   "name": "Release - v0.22.52",
   "tag_name": "v0.22.52",
+  "published_at": "2021-02-10T15:57:11Z",
   "body": "Addition of Agent-State thanks to @johnrengelman and minor fix to internal metrics.\n\n## Features\n\nAgent state is now tracked for hosts. The agent state is what is set when a host connects/disconnects from the Rancher server. Useful for when hosts enter 're-connecting' state.\n\n## Fixes\n- Resolved minor issue with the labels for internal metrics, specifically the package was reported wrong.\n"
 }
