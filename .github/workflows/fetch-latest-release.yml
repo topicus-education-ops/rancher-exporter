@@ -4,7 +4,7 @@ name: Get latest release version
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '0 4 * * *'
+    - cron:  '0 22 * * 5'
 
 jobs:
   update-latest-release:
